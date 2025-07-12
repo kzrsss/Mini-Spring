@@ -1,0 +1,4 @@
+com\kama\minispring\beans\factory\HierarchicalBeanFactory.class
+com\kama\minispring\cloud\circuit\DefaultCircuitBreaker$1.class
+com\kama\minispring\context\MessageSource.class
+com\kama\minispring\beans\factory\config\ConfigurableBeanFactory.class

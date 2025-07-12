@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.kama.minispring.web.servlet.view.InternalResourceViewResolverTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s -- in com.kama.minispring.web.servlet.view.InternalResourceViewResolverTest

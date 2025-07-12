@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+    <!-- 测试Bean -->
+    <bean id="testBean" class="com.minispring.test.bean.TestBean">
+        <property name="name" value="测试Bean"/>
+    </bean>
+    
+    <!-- 带构造参数的Bean -->
+    <bean id="testBeanWithConstructor" class="com.minispring.test.bean.TestBean">
+        <constructor-arg value="通过构造函数创建"/>
+    </bean>
+    
+    <!-- 带初始化和销毁方法的Bean -->
+    <bean id="testBeanWithLifecycle" class="com.minispring.test.bean.TestBean"
+          init-method="init" destroy-method="customDestroy">
+        <property name="name" value="生命周期Bean"/>
+    </bean>
+    
+    <!-- 测试Bean引用 -->
+    <bean id="testService" class="com.minispring.test.service.TestService">
+        <property name="testBean" ref="testBean"/>
+        <property name="message" value="Hello, MiniSpring!"/>
+    </bean>
+    
+    <!-- 测试初始化和销毁方法 -->
+    <bean id="lifecycleBean" class="com.minispring.test.bean.LifecycleBean" 
+          init-method="init" destroy-method="destroy">
+        <property name="name" value="Lifecycle"/>
+    </bean>
+    
+    <!-- 测试作用域 -->
+    <bean id="prototypeBean" class="com.minispring.test.bean.PrototypeBean" scope="prototype">
+        <property name="name" value="Prototype"/>
+    </bean>
+</beans> 

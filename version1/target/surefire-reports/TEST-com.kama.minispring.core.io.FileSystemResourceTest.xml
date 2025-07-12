@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.kama.minispring.core.io.FileSystemResourceTest" time="0.054" tests="11" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.class.path" value="D:\kama\mini-spring\target\test-classes;D:\kama\mini-spring\target\classes;D:\software\apache-maven-3.6.1\mvn_repo\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;D:\software\apache-maven-3.6.1\mvn_repo\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;D:\software\apache-maven-3.6.1\mvn_repo\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;D:\software\apache-maven-3.6.1\mvn_repo\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;D:\software\apache-maven-3.6.1\mvn_repo\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;D:\software\apache-maven-3.6.1\mvn_repo\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;D:\software\apache-maven-3.6.1\mvn_repo\org\mockito\mockito-core\5.3.1\mockito-core-5.3.1.jar;D:\software\apache-maven-3.6.1\mvn_repo\net\bytebuddy\byte-buddy\1.14.4\byte-buddy-1.14.4.jar;D:\software\apache-maven-3.6.1\mvn_repo\net\bytebuddy\byte-buddy-agent\1.14.4\byte-buddy-agent-1.14.4.jar;D:\software\apache-maven-3.6.1\mvn_repo\org\objenesis\objenesis\3.3\objenesis-3.3.jar;D:\software\apache-maven-3.6.1\mvn_repo\org\mockito\mockito-junit-jupiter\5.3.1\mockito-junit-jupiter-5.3.1.jar;D:\software\apache-maven-3.6.1\mvn_repo\org\slf4j\slf4j-api\2.0.7\slf4j-api-2.0.7.jar;D:\software\apache-maven-3.6.1\mvn_repo\org\slf4j\slf4j-simple\2.0.7\slf4j-simple-2.0.7.jar;D:\software\apache-maven-3.6.1\mvn_repo\junit\junit\4.13.2\junit-4.13.2.jar;D:\software\apache-maven-3.6.1\mvn_repo\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\software\apache-maven-3.6.1\mvn_repo\cglib\cglib\3.3.0\cglib-3.3.0.jar;D:\software\apache-maven-3.6.1\mvn_repo\org\ow2\asm\asm\7.1\asm-7.1.jar;D:\software\apache-maven-3.6.1\mvn_repo\org\aspectj\aspectjweaver\1.9.19\aspectjweaver-1.9.19.jar;D:\software\apache-maven-3.6.1\mvn_repo\javax\servlet\javax.servlet-api\4.0.1\javax.servlet-api-4.0.1.jar;D:\software\apache-maven-3.6.1\mvn_repo\org\springframework\spring-test\5.3.27\spring-test-5.3.27.jar;D:\software\apache-maven-3.6.1\mvn_repo\org\springframework\spring-core\5.3.27\spring-core-5.3.27.jar;D:\software\apache-maven-3.6.1\mvn_repo\org\springframework\spring-jcl\5.3.27\spring-jcl-5.3.27.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.boot.library.path" value="D:\software\JDK17\bin"/>
+    <property name="sun.java.command" value="C:\Users\86450\AppData\Local\Temp\surefire9125288559114970061\surefirebooter-20250115113838592_3.jar C:\Users\86450\AppData\Local\Temp\surefire9125288559114970061 2025-01-15T11-38-38_332-jvmRun1 surefire-20250115113838592_1tmp surefire_0-20250115113838592_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\kama\mini-spring\target\test-classes;D:\kama\mini-spring\target\classes;D:\software\apache-maven-3.6.1\mvn_repo\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;D:\software\apache-maven-3.6.1\mvn_repo\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;D:\software\apache-maven-3.6.1\mvn_repo\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;D:\software\apache-maven-3.6.1\mvn_repo\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;D:\software\apache-maven-3.6.1\mvn_repo\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;D:\software\apache-maven-3.6.1\mvn_repo\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;D:\software\apache-maven-3.6.1\mvn_repo\org\mockito\mockito-core\5.3.1\mockito-core-5.3.1.jar;D:\software\apache-maven-3.6.1\mvn_repo\net\bytebuddy\byte-buddy\1.14.4\byte-buddy-1.14.4.jar;D:\software\apache-maven-3.6.1\mvn_repo\net\bytebuddy\byte-buddy-agent\1.14.4\byte-buddy-agent-1.14.4.jar;D:\software\apache-maven-3.6.1\mvn_repo\org\objenesis\objenesis\3.3\objenesis-3.3.jar;D:\software\apache-maven-3.6.1\mvn_repo\org\mockito\mockito-junit-jupiter\5.3.1\mockito-junit-jupiter-5.3.1.jar;D:\software\apache-maven-3.6.1\mvn_repo\org\slf4j\slf4j-api\2.0.7\slf4j-api-2.0.7.jar;D:\software\apache-maven-3.6.1\mvn_repo\org\slf4j\slf4j-simple\2.0.7\slf4j-simple-2.0.7.jar;D:\software\apache-maven-3.6.1\mvn_repo\junit\junit\4.13.2\junit-4.13.2.jar;D:\software\apache-maven-3.6.1\mvn_repo\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\software\apache-maven-3.6.1\mvn_repo\cglib\cglib\3.3.0\cglib-3.3.0.jar;D:\software\apache-maven-3.6.1\mvn_repo\org\ow2\asm\asm\7.1\asm-7.1.jar;D:\software\apache-maven-3.6.1\mvn_repo\org\aspectj\aspectjweaver\1.9.19\aspectjweaver-1.9.19.jar;D:\software\apache-maven-3.6.1\mvn_repo\javax\servlet\javax.servlet-api\4.0.1\javax.servlet-api-4.0.1.jar;D:\software\apache-maven-3.6.1\mvn_repo\org\springframework\spring-test\5.3.27\spring-test-5.3.27.jar;D:\software\apache-maven-3.6.1\mvn_repo\org\springframework\spring-core\5.3.27\spring-core-5.3.27.jar;D:\software\apache-maven-3.6.1\mvn_repo\org\springframework\spring-jcl\5.3.27\spring-jcl-5.3.27.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\86450"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="D:\software\JDK17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\kama\mini-spring"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\86450\AppData\Local\Temp\surefire9125288559114970061\surefirebooter-20250115113838592_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.12+8-LTS-286"/>
+    <property name="user.name" value="86450"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="D:\software\apache-maven-3.6.1\mvn_repo"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\86450\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.12"/>
+    <property name="user.dir" value="D:\kama\mini-spring"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="GBK"/>
+    <property name="java.library.path" value="D:\software\JDK17\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;c:\Users\86450\AppData\Local\Programs\cursor\resources\app\bin;D:\javajdk\bin;D:\maven\apache-maven-3.5.3-bin\apache-maven-3.5.3\bin;C:\Program Files\Common Files\Oracle\Java\javapath;D:\tools\VMware\bin\;D:\ORACLE\app\oracle\product\11.2.0\server\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\mysql-8.0.31-winx64\bin;D:\Git\cmd;D:\software\apache-maven-3.6.1\bin;D:\work\mysql-8.0.15-winx64\bin;D:\Redis\redis-5.0.5;C:\Program Files\Docker\Docker\resources\bin;D:\software\apache-zookeeper-3.6.4-bin\bin;D:\nodejs\;D:\software\;D:\software\JDK17\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;D:\tools\Anaconda;D:\tools\Anaconda\Library\mingw-w64\bin;D:\tools\Anaconda\Library\usr\bin;D:\tools\Anaconda\Library\bin;D:\tools\Anaconda\Scripts;D:\python310\Scripts\;D:\pyt;D:\software\JDK17\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;D:\tools\Anaconda;D:\tools\Anaconda\Library\mingw-w64\bin;D:\tools\Anaconda\Library\usr\bin;D:\tools\Anaconda\Library\bin;D:\tools\Anaconda\Scripts;D:\python310\Scripts\;D:\python310\;C:\Users\86450\AppData\Local\Microsoft\WindowsApps;D:\BaiduNetdiskDownload\Java\IntelliJ IDEA Community Edition 2021.2.3\bin;;D:\PyCharm 2022.1.3\bin;;D:\LenovoSoftstore\Install\QQliuxidating\QQGameTempest\Hall.57986\;D:\WEBSTORM\WebStorm 2024.1.3\bin;;D:\IntelliJ IDEA 2024.2.3\bin;;D:\Goland\GoLand 2024.2.0.1\bin;;;D:\software\CLion 2024.3\bin;;C:\Users\86450\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.12+8-LTS-286"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testLastModified" classname="com.kama.minispring.core.io.FileSystemResourceTest" time="0.027"/>
+  <testcase name="testConstructorWithNullArguments" classname="com.kama.minispring.core.io.FileSystemResourceTest" time="0.002"/>
+  <testcase name="testCreateRelative" classname="com.kama.minispring.core.io.FileSystemResourceTest" time="0.004"/>
+  <testcase name="testGetFile" classname="com.kama.minispring.core.io.FileSystemResourceTest" time="0.0"/>
+  <testcase name="testGetAbsolutePath" classname="com.kama.minispring.core.io.FileSystemResourceTest" time="0.0"/>
+  <testcase name="testGetDescription" classname="com.kama.minispring.core.io.FileSystemResourceTest" time="0.0"/>
+  <testcase name="testGetFilename" classname="com.kama.minispring.core.io.FileSystemResourceTest" time="0.0"/>
+  <testcase name="testExists" classname="com.kama.minispring.core.io.FileSystemResourceTest" time="0.0"/>
+  <testcase name="testNonExistentFile" classname="com.kama.minispring.core.io.FileSystemResourceTest" time="0.0"/>
+  <testcase name="testIsReadable" classname="com.kama.minispring.core.io.FileSystemResourceTest" time="0.002"/>
+  <testcase name="testGetInputStream" classname="com.kama.minispring.core.io.FileSystemResourceTest" time="0.0"/>
+</testsuite>
